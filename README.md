@@ -4,7 +4,15 @@
 **Curso:** Procesamiento de Alto Volumen de Datos
 **Estudiante:** Javier Felipe Aldana Jaramillo
 
-Este repositorio contiene los cuadernos (Jupyter Notebooks) desarrollados para el taller de ejercicios de Python. Cada cuaderno aborda una estructura o concepto del lenguaje, incluye un membrete de identificacion, la documentacion personal de cada actividad resuelta y las conclusiones del tema.
+Este repositorio contiene los cuadernos (Jupyter Notebooks) desarrollados para el taller de ejercicios de Python, con base en el material del curso (`DatosGranEscala/Lab_01`). Cada cuaderno incluye:
+
+- Membrete de identificacion (universidad, curso, autor del material, estudiante, tema y objetivos).
+- El contenido teorico original del curso.
+- Notas personales breves despues de cada seccion.
+- Los ejercicios del examen/cuestionario resueltos, cada uno con una explicacion personal de la solucion.
+- Una seccion de Conclusiones al final.
+
+Los 10 cuadernos se ejecutaron de principio a fin sin errores. En el proceso se encontraron y corrigieron dos bugs del material original (una funcion `sum` que tapaba la funcion interna de Python en el cuaderno de Funciones, y una clase `Rectangle` nunca definida en el cuaderno de Clases); ambos quedan documentados con una nota personal en el cuaderno correspondiente.
 
 ## Estructura del repositorio
 
@@ -27,5 +35,6 @@ El ejercicio integrador de bono se encuentra en `10_bono/bono.ipynb` y combina v
 
 ## Notas
 
-- La fecha de entrega se definira en clase.
+- La fecha de entrega se definira en clase (ver membrete de cada cuaderno).
 - Cada cuaderno documenta las actividades de forma personal, breve y explicita.
+- Los cuadernos se probaron ejecutando todas las celdas de principio a fin; al abrirlos en Jupyter/Colab se recomienda correr "Run All" para generar las salidas (graficas, prints) de forma fresca antes de la entrega final.
