@@ -1,18 +1,18 @@
 # Taller de Ejercicios de Python
 
 **Pontificia Universidad Javeriana**
-**Curso:** Procesamiento de Alto Volumen de Datos
+**Curso:** Procesamiento de Datos
 **Estudiante:** Javier Felipe Aldana Jaramillo
 
-Este repositorio contiene los cuadernos (Jupyter Notebooks) desarrollados para el taller de ejercicios de Python, con base en el material del curso (`DatosGranEscala/Lab_01`). Cada cuaderno incluye:
+Este repositorio contiene los cuadernos (Jupyter Notebooks) desarrollados para el taller de ejercicios de Python, con base en el material del curso (`DatosGranEscala/Lab_01`). En vez de reproducir la teoria completa del material original, cada cuaderno va directo a lo que se pide entregar. La estructura es la misma en los 10 cuadernos:
 
-- Membrete de identificacion (universidad, curso, autor del material, estudiante, tema y objetivos).
-- El contenido teorico original del curso.
-- Notas personales breves despues de cada seccion.
-- Los ejercicios del examen/cuestionario resueltos, cada uno con una explicacion personal de la solucion.
-- Una seccion de Conclusiones al final.
+- **Membrete de identificacion**: universidad, curso, fecha, autor del material original, estudiante, tema y objetivos.
+- **Descripcion**: resumen breve y personal de que trata el cuaderno, sin copiar la teoria original.
+- **Comandos nuevos**: cada comando o metodo nuevo del tema, con una descripcion muy breve y una celda de codigo propia que lo ejecuta como ejemplo (distinta a los ejercicios del examen). El cuaderno de bono no trae esta seccion porque es un ejercicio integrador que no introduce sintaxis nueva.
+- **Solucion del examen/taller**: cada pregunta del cuestionario o actividad del cuaderno original, resuelta con codigo ejecutado (salidas reales, no simuladas) y una "Explicacion" personal y distinta para cada una.
+- **Conclusiones**: cierre personal sobre lo aprendido en el cuaderno.
 
-Los 10 cuadernos se ejecutaron de principio a fin sin errores. En el proceso se encontraron y corrigieron dos bugs del material original (una funcion `sum` que tapaba la funcion interna de Python en el cuaderno de Funciones, y una clase `Rectangle` nunca definida en el cuaderno de Clases); ambos quedan documentados con una nota personal en el cuaderno correspondiente.
+Los 10 cuadernos se ejecutaron de principio a fin sin errores. En el proceso se encontraron dos bugs del material original (una funcion `sum` que tapaba la funcion interna de Python en el cuaderno de Funciones, y una clase `Rectangle` nunca definida en el cuaderno de Clases); ambos quedan documentados con una nota personal en la Descripcion del cuaderno correspondiente.
 
 ## Estructura del repositorio
 
@@ -35,6 +35,6 @@ El ejercicio integrador de bono se encuentra en `10_bono/bono.ipynb` y combina v
 
 ## Notas
 
-- La fecha de entrega se definira en clase (ver membrete de cada cuaderno).
+- Fecha acordada en clase: 14 de agosto de 2026 (ver membrete de cada cuaderno).
 - Cada cuaderno documenta las actividades de forma personal, breve y explicita.
-- Los cuadernos se probaron ejecutando todas las celdas de principio a fin; al abrirlos en Jupyter/Colab se recomienda correr "Run All" para generar las salidas (graficas, prints) de forma fresca antes de la entrega final.
+- Los cuadernos ya se ejecutaron de principio a fin (incluidas las salidas y la grafica de la elipse en el cuaderno de Clases); al abrirlos en Jupyter/Colab se puede correr "Run All" para regenerar las salidas si hace falta.
